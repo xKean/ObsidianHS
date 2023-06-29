@@ -4,6 +4,7 @@
 ### Komplex Konjugiert
 $\overline {z_1}$
 Hier wird  ""+ und - zwischen Realteil und Imaginärteil umgedreht.
+Das ist superklasse!
 
 
 #### Beispiel
