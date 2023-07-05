@@ -8,7 +8,7 @@ dg-publish: true
 I like this since its from [[05.04.2023]] 
 
 
-
+![Alt text](image.png)
 
 ### [[Obsidian Links |Links]] 
 - Literature Note
