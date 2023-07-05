@@ -1,6 +1,5 @@
 ## Lernziele
 
-- [[Terminologien im Bereich Computernetzwerke]]
 - Was ist ein [[Kommunikationsnetz]]?
 - Was ist ein [[Kommunikationsprotokoll]]?
 - Was ist der [[Netzzugang Edge]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
