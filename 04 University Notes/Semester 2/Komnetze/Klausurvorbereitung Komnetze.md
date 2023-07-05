@@ -12,15 +12,9 @@ Kapitel der Vorlesung:
 5. [[Sicherungsschicht]]
 
 
-#### Lernziele Kapitel 1: [[Grundlagen von Kommunikationsnetzen]]
+## Lernziele Kapitel 1: [[Grundlagen von Kommunikationsnetzen]]
 
-- [[Terminologien im Bereich Computernetzwerke]]
-- Was ist ein [[Kommunikationsnetz]]?
-- Was ist ein [[Kommunikationsprotokoll]]?
-- Was ist der [[Netzzugang Edge]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
-- Was ist der [[Netzkern Core]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
-- [[Anforderungen an Computernetzwerke]] heutzutage
-- [[Schichtenmodell für Protokolle und Dienste]]  (Referenzmodelle)
+-  
 
 
 #### Lernziele Kapitel 2: [[Anwendungsschicht]]
