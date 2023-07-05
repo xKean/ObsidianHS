@@ -1,9 +1,7 @@
----
-dg-publish: true
----
+
 ![[Pasted image 20230411205550.png]]
 
-Ein Kommunikationsnetz stellt einen Kanal aus Vermittlern bereit, welche es ermöglichen zu kommunizieren.
+Ein [[Kommunikationsnetz]] stellt einen Kanal aus Vermittlern bereit, welche es ermöglichen zu kommunizieren.
 
 Zu einem Kommunikationsnetz gehören:
 - Endsysteme 

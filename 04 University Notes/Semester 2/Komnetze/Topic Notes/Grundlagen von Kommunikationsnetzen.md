@@ -13,7 +13,7 @@
 [[Wiederholungsfragen-Kap1-KommProt-2015-2016.pdf]]
 
 ### 1.1 Definition Kommunikationsnetze am Beispiel Internet (Computernetzwerk)
-- Was ist ein Kommunikationsnetz (am Beispiel Internet)? 
+- Was ist ein [[Kommunikationsnetz]] (am Beispiel Internet)? 
 - Was versteht man unter einem bidirektionalen zuverlässigen Transport von Nachrichten?
 - Skizzieren Sie ein Beispiel für ein Kommunikationsmodell. Berücksichtigen Sie Quelle, Ziel, Sender, Empfänger und Störeinflüsse. 
 - Was versteht man unter Nachrichten- und Signalübertragung und wie werden diese in Kommunikationsnetzen eingesetzt?
