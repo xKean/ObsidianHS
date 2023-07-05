@@ -37,3 +37,8 @@ Kapitel der Vorlesung:
 - Welche Aufgaben haben [[Verbindungsorientierte Transportprotokolle]]?
 - Wie wird bei [[TCP]] die Fehler-, Fluss- und Staukontrolle realisiert? 
 - Welche aktuellen Performance- und Sicherheitsherausforderungen stellen sich für [[TCP]]/[[UDP]]?
+
+
+
+
+#### Lernziele Kapitel 5: [[Sicherungsschicht]] / Netzzugriff
