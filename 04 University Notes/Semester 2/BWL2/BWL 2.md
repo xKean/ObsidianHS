@@ -14,7 +14,7 @@ dg-publish: true
 - [[Betrieblicher Transformationsprozess]]
 - [[Betriebliche Produktionsfaktoren]]
 - [[Wertschöpfung]]
--  [[Personalwesen und Personalwirtschaft]]
+- [[Personalwesen und Personalwirtschaft]]
 - [[Quantitative Personalbedarfsermittlung]]
 - [[ABC-Analyse]]
 - [[XYZ-Analyse]]
@@ -33,4 +33,16 @@ dg-publish: true
 - 
 
 
-#todo Lernziele aus Vorlesung übertragen
+Kapitel 2: 
+
+
+
+
+### Wiederholung letzte Vorlesung
+
+Kapitel 3: Grundlagen des Marketings
+- Definition "Markt"
+- [[Größen von Märkten]]    (Tabelle aus VL)
+- Verkäufer- und Käufermärkte
+	- Was ist ein Verkäufer- und was ist ein Käufermarkt?
+	- Ein Verkäufermarkt kann au einem Käufermarkt durch Krisen und Knappheiten entstehen Panda
