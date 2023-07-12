@@ -1,7 +1,7 @@
 ---
 dg-publish: true
 ---
-User Dataram Protocol
+User Datagram Protocol
 
 - Verbindungsloses Protokoll
 - Daten werden ohne vorher eine virtuelle Verbindung aufzubauen übermittelt
