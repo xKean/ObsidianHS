@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+## Lernziele
+>>>>>>> a9b43cf9cf92c9df1497420ce28d2b9d789a6595
 
 ## Wiederholungsfragen
 

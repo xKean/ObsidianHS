@@ -1,0 +1,3 @@
+1. Grundsatz der Vollständigkeit Alle Funktionsbereiche einer Unternehmung müssen einbezogen werden (sachlich) • Es darf keine Planungslücken geben (zeitlich) 
+2. Grundsatz der Abgestimmtheit • Gegenseitige Abhängigkeiten sind zu berücksichtigen • Ausrichtung auf den Teilbereich, der als erster restriktiv wirkt (Minimumsektor) 
+3. Grundsatz der Flexibilität • Die Planung muss möglichst rasch an veränderte Umweltbedingungen angepasst werden können
