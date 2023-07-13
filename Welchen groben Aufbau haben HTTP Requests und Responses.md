@@ -1,0 +1,15 @@
+- Bei HTTP/1.1 waren Übertragungen von Nachrichten noch im "Plaintext" und somit "menschenlesbar", ab HTTP/2 geschieht das binär
+-  HTTP REQUEST Struktur:
+	- ![[Pasted image 20230712114933.png]]
+- Accept verwendet MIME-Typen (Multi-purpose Internet Mail Extension)
+	- z.B.: text/plain, text/html, image/jpeg, application/zip, audio/mp3
+- Aufgaben von Protokollen auf der Anwendungsschicht
+	- Typen der Nachrichten, Nachrichtensemantik, Regeln, Interpretation
+
+- HTTP RESPONE Struktur:
+	- ![[Pasted image 20230712115423.png]]
+	- Status Codes inkl. Begründung:
+		- 100 = Continue
+		- 301 = Moved Permanently
+		- 404 = den kennen wir alle (Not Found)
+		- 500 = Internal Server Error

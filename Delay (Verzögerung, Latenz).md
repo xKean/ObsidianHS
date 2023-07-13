@@ -1,0 +1,1 @@
+Einige Anwendungen (Internettelefonier, Gaming) erfordern geringes Delay, Abweichung des Delays während der Übertragung (Jitter).

@@ -1,0 +1,11 @@
+- Die URL beinhaltet für den Menschen einen leicht merkbaren Namen, anstatt der längeren Adresse in Zahlen
+	- z.B.: Hochschule-Fulda.de
+- Im Schichtenmodell wurde für die Vermittlungsschicht aber IP Adresse als Layer 3 genannt
+- Wie kann also die IP-Adresse des Web-Servers aus dessen Name ermittelt werden?
+	- Lösung: Domain Name System (DNS)
+	- Abbildung von Domain Namen auf IP-Adressen und umgekehrt
+	- DNS stellt ein Anwendungsprtokoll dar (verwendet UDP oder TCP Port 53)
+	- essentielles Protokoll für nahezu alle Internetdienste
+	- von 1987, aber denke ich irrelevant, sind ja nicht im Geschichtsunterricht
+- aktuelle Entwicklungen zu DNS sind Security, z.B. DNSSEC, DNS over HTTP/3 ([[DoH3]]), DNS over TLS ([[DoT]])
+- ![[Pasted image 20230712134527.png]]

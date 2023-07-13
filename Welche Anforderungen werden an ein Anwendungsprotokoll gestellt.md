@@ -1,0 +1,4 @@
+- Verbindung von Anwendungen, die z.B. auf entfernten Endsystemen laufen (Web-Server/-Browser)
+- Kommunikation erfolgt transparent über das Netz, keine Erweiterungen am Core für Anwendung
+- Rollen der Endsysteme: Client/Server oder gleichberechtigt, sogenannte "Peer-to-Peer" Kommunikation
+- Clients verbinden sich mit Servern, Adresse des Servers in der Regel statisch, Clients häufig dynamisch

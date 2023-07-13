@@ -1,0 +1,1 @@
+z.B.: UDP im Gegensatz zu TCP: verbindungslos, kein Verbindungsaufbau (Damit schnellere Datenübertragung), keine Fehler-/ Flusskontrolle.

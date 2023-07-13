@@ -1,0 +1,1 @@
+Einige Anwendungen erfordern 100% Zuverlässigkeit, andere können einzelne Paketverluste tolerieren.

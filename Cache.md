@@ -1,0 +1,1 @@
+- Im Cache werden diejenigen Daten abgespeichert, die recht groß und kompliziert zu laden sind. Denken Sie bei Websites beispielsweise an Bilder. Diese sind oft die größten Inhalte. Wird dann erneut auf diese Website zurückgegriffen, werden dank der Zwischenspeicherung Ladezeiten reduziert und das benötigte Volumen an Daten zum Laden ebenfalls klein gehalten.
