@@ -1,4 +1,4 @@
-#### Lernziele
+## Lernziele
 
 - Konzept und Implementierung von [[Internetanwendungsprotokollen]]
 - [[Client-Server-Anwendungen]] vs [[Peer-to-Peer]]

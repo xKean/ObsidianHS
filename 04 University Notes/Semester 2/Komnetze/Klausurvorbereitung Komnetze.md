@@ -12,9 +12,8 @@ Kapitel der Vorlesung:
 5. [[Sicherungsschicht]]
 
 
-#### Lernziele Kapitel 1: [[Grundlagen von Kommunikationsnetzen]]
+## Lernziele Kapitel 1: [[Grundlagen von Kommunikationsnetzen]]
 
-- [[Terminologien im Bereich Computernetzwerke]]
 - Was ist ein [[Kommunikationsnetz]]?
 - Was ist ein [[Kommunikationsprotokoll]]?
 - Was ist der [[Netzzugang Edge]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
@@ -23,7 +22,7 @@ Kapitel der Vorlesung:
 - [[Schichtenmodell für Protokolle und Dienste]]  (Referenzmodelle)
 
 
-#### Lernziele Kapitel 2: [[Anwendungsschicht]]
+## Lernziele Kapitel 2: [[Anwendungsschicht]]
 
 - Konzept und Implementierung von [[Internetanwendungsprotokollen]]
 - [[Client-Server-Anwendungen]] vs [[Peer-to-Peer]]
@@ -34,7 +33,7 @@ Kapitel der Vorlesung:
 - Wie können Rechner automatisiert mit [[DHCP]] für die Verwendung von TCP/IPNetzen konfiguriert werden?
 
 
-#### Lernziele Kapitel 3: [[Transportschicht]]
+## Lernziele Kapitel 3: [[Transportschicht]]
 
 - Aufgaben und Funktion der [[Transportschicht]]
 - Eigenschaften von [[TCP]] und [[UDP]]
@@ -43,3 +42,8 @@ Kapitel der Vorlesung:
 - Welche Aufgaben haben [[Verbindungsorientierte Transportprotokolle]]?
 - Wie wird bei [[TCP]] die Fehler-, Fluss- und Staukontrolle realisiert? 
 - Welche aktuellen Performance- und Sicherheitsherausforderungen stellen sich für [[TCP]]/[[UDP]]?
+
+
+
+
+## Lernziele Kapitel 5: [[Sicherungsschicht]] / Netzzugriff

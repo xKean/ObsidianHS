@@ -1,0 +1,7 @@
+#### Definition
+
+
+
+
+#### Berechnung
+[[Deckungsbeitragsrechnung]]
