@@ -1,0 +1,1 @@
+16 Bit für Port-Nummer im Header (2^16=65535 Ports, 0 ist reserviert)

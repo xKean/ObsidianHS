@@ -1,0 +1,1 @@
+Sockets stellen die Endpunkte des Transports von Nachrichten dar.

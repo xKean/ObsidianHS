@@ -1,0 +1,7 @@
+- Bildung von TCP-Paketen
+- (De)Multiplexen von Anwendungen
+- Aufbau und Abbau von (virtuellen) TCP-Verbindungen
+- Transport von TCP-Paketen über TCP-Verbindungen
+- Fehlerkontrolle : Sicherung des Datentransports
+- Flusskontrolle : Anpassung der Sendeseite an die Gegenseite
+- Staukontrolle : Anpassung der Sendeseite an Netzauslastung

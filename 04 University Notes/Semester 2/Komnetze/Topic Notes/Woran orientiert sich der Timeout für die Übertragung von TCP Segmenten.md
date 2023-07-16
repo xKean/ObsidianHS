@@ -1,0 +1,1 @@
+Die maximale Wartezeit für die Quittungen wird bei TCP basierend auf RTT der Verbindung abgeschätzt (> RoundTripTime)

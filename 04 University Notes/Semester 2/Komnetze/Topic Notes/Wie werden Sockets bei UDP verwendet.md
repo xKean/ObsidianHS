@@ -1,0 +1,1 @@
+Sockets (definiert durch: IP-Adresse + Port) stellen die Endpunkte des Transports von Nachrichten dar. UDP Sockets werden direkt für fortlaufende Übertragung genutzt, keine Verbindung, kein Verbindungsauf-/-abbau, keine Fehler-/Flusskontrolle etc.

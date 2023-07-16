@@ -1,0 +1,1 @@
+Erweiterungen für Unterscheidung von Paketverlust durch Timeout und Paketverlust durch Bitfehler (z.B. im WLAN)

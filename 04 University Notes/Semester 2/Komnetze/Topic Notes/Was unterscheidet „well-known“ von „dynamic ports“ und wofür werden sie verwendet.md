@@ -1,0 +1,2 @@
+- Ports < 1024 bezeichnet man als **„system“** oder **„well known ports“**, Nutzung erfordert Admin-Rechte, Antrag für Vergabe der Nummern bei IANA erforderlich
+- Ports 49152-65535 bezeichnet man als **„private“** oder **„dynamic ports“**, frei verwendbar

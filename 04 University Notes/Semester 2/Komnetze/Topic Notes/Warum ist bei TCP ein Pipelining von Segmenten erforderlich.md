@@ -1,0 +1,1 @@
+Würde nur ein Segment übertragen und dann gewartet, würden lange Laufzeiten (Delays) Bitrate stark einschränken. Daher werden bei TCP mehrere Segmente versendet ohne auf eine Bestätigung zu warten

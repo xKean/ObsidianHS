@@ -1,0 +1,6 @@
+- Ab dem Erreichen des Slow-Start-Schwellwerts (Slow-Start Threshold) Größe des Congestion Windows (nun langsamer) inkrementieren und bei Verlust reduzieren (congestion avoidance)
+- Sofern kein Timeout auftritt, läuft TCP congestion control in congestion avoidance, wird auch **AIMD Phase** genannt:
+ - Additive Increase, Multiplicative Decrease
+ - Dies wird auch "Sägezahn" von TCP genannt
+- So wird ein Herantasten an die maximal verfügbare Übertragungsrate möglich
+- Funktioniert auch für die Anpassung mehrerer Sender, z.B. für zwei Sender jeweils halbe max. Bitrate (faire Bitratenaufteilung)

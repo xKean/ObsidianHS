@@ -1,0 +1,5 @@
+- Kein Verbindungsaufbau und damit geringeres Delay (Daten können sofort übermittelt werden)
+- Schlanker Header, verringert Delay zusätzlich
+- Keine Fehler-/Fluss-/Staukontrolle
+ -  UDP-Daten können einfach gesendet werden und nutzen „best effort“ Dienst von IP (Internet) so gut wie möglich, keine Reduzierung der Bitrate etc., Daten werden so schnell gesendet, wie es über das Netz möglich ist und sie von der Anwendung kommen.
+ - Eine Behandlung von Übertragungsfehlern, Flusskontrolle, Stau etc. müsste somit wenn von der Anwendung (in höherer Schicht) erbracht werden. (siehe HTTP/3 w/ QUIC)

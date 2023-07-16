@@ -1,0 +1,13 @@
+- **Source Port (Quell-Port)**: Portnummer des Anwendungsprotokolls (der Applikation) im Quellrechner, das die Daten sendet.
+- **Destination Port (Ziel-Port)**: Portnummer des Anwendungsprotokolls im Zielrechner, an die die Daten adressiert sind.
+- **Sequence Number (Sequenznummer)** für die byteweise Nummerierung von zu sendenden Daten
+- **Acknowledgement Number (Quittungsnummer)** für die byteweise Bestätigung empfangener Daten
+- **(Receive) Window (Fenstergröße)** dient der Flusskontrolle und gibt dem Sender an, wie viele Bytes – beginnend ab der letzten Quittungsnummer – der Empfänger (Zielrechner) in seinem Aufnahme-Puffer noch aufnehmen kann.
+- **Control Flags (Kontroll-Flags)** legen die Bedeutung des TCP-Segments fest. Dieses 6-Bit Feld hat folgende Struktur: URG, ACK, PSH, RST, SYN, FIN. Ist das entsprechende Bit gesetzt, gilt Folgendes:
+ - URG (Urgent): Segment enthält dringliche Daten (selten verwendet) (nicht klausurrelevant)
+ - ACK (Acknowledgement): Quittungsnummer wird übermittelt
+ - PSH (Push): Daten sofort an die nächsthöhere Schicht übergeben (selten verwendet, z.B. für interaktive Anwendungen) (nicht klausurrelevant)
+ - RST (Reset): TCP-Verbindung soll zurückgesetzt werden
+ - SYN (Synchronization): Aufbau einer TCP-Verbindung
+ - FIN (Finish): Abbau einer TCP-Verbindung
+- **Options (variable Länge)**: TCP ermöglicht es, weitere Optionen anzugeben. Als eine Option kann z.B. Maximum Segment Size angegeben werden.
