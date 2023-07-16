@@ -1,7 +1,3 @@
----
-dg-publish: true
----
-
 Router sind <u>Vermittler</u> im Netz.
 Router haben insbesondere zwei Aufgaben:
 

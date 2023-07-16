@@ -1,12 +1,3 @@
-## Lernziele
-
-- Was ist ein [[Kommunikationsnetz]]?
-- Was ist ein [[Kommunikationsprotokoll]]?
-- Was ist der [[Netzzugang Edge]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
-- Was ist der [[Netzkern Core]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
-- [[Anforderungen an Computernetzwerke]] heutzutage
-- [[Schichtenmodell für Protokolle und Dienste]]  (Referenzmodelle)
-
 
 ## Wiederholungsfragen
 
@@ -41,7 +32,7 @@ Simplex |
 - Welche Komponenten kommen in Unternehmensnetzen hinzu? 
 - Welche Übertragungsmedien kennen Sie? 
 - Welche Übertragungseigenschaften haben Glasfaserstrecken im Vergleich zu TwistedPair-Kabeln? 
-- Was bedeutet WAN, LAN, MAN und wozu braucht man VPN? 
+- [[Was bedeutet WAN, LAN, MAN und wozu braucht man VPN]]? 
 - Zeichnen Sie eine typische Netzstruktur bestehend aus LAN, MAN und WAN. 
 - Welche Netztopologien kennen Sie? 
 - Warum kann das Internet auch als „Netz der Netze“ bezeichnet werden?

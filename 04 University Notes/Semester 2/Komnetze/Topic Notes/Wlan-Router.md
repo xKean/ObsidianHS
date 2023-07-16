@@ -1,6 +1,3 @@
----
-dg-publish: true
----
 Der Wlan-Router heutzutage hat viele verschieden Funktionen und ist schon lange nicht mehr nur der eigentliche "Router".
 
 Der Wlan-Router übernimmt heutzutage meist folgende Aufgaben:

@@ -1,6 +1,4 @@
----
-dg-publish: true
----
+
 Wenn man vom Edge-Bereich spricht gibt es zweit Seiten:
 
 ### Edge - Endkunde / Konsument
@@ -14,6 +12,6 @@ Hier wird der von den Clients abgerufene Content und die Services bereitgestellt
 ######
 Die Kommunikation zwischen den Edge-Geräte auf der Konsumentenseite und der Edge-Infrastruktur auf der Data-Center Seite wird durch den [[Netzkern Core]] ermöglicht.
 
+###### Aufbau 
 
-
-![[Pasted image 20230411205505.png]] ^8f54f8
+![[Pasted image 20230716135405.png]]

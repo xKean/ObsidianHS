@@ -7,7 +7,7 @@ Zu einem Kommunikationsnetz gehören:
 - Endsysteme 
 - Vermittler
 
-Diese können eine Vermittlungsstrecke bilden.
+Diese können eine Verbindungsstrecken bilden.
 
 Die **Anwendung** nutzt Schnittstellen am **Endsystem** zur Nachrichtenübertragung.
 Die Nachrichtenübertragung nutzt eine Schnittstelle zum Kommunikationsnetz zur Signalübertragung.
