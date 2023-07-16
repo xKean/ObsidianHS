@@ -1,0 +1,1 @@
+Das Longest Prefix Matching ermöglicht effizientes Routing, Flexibilität bei der Verwendung von Subnetzmasken, Skalierbarkeit der Routing-Tabellen, Unterstützung für CIDR und Fehlerresistenz bei der Routenauswahl.

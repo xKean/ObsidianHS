@@ -1,0 +1,1 @@
+Diese IP-Adresse bezeichnet die Loopback/Local-Adresse. Wenn ein Gerät die Adresse 127.0.0.1 verwendet, wird der Datenverkehr an den eigenen Netzwerkstack des Geräts zurückgesendet. Es handelt sich praktisch um eine Adresse, die auf das eigene Gerät verweist.

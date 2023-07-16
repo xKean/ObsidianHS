@@ -1,0 +1,1 @@
+Die Angabe der Subnetzmaske zusammen mit der IP-Adresse ist notwendig, damit der Computer weiß, welcher Teil der IP-Adresse zum Netzwerk gehört und welcher Teil zum Host. Dadurch kann der Computer den Datenverkehr innerhalb des Netzwerks richtig leiten.

@@ -1,0 +1,1 @@
+Die Subnetz-Adressen 10.0.0.0/8, 172.16.0.0/12 und 192.168.0.0/16 haben die Gemeinsamkeit, dass sie alle zu den sogenannten privaten IP-Adressbereichen gehören. Diese Adressbereiche sind speziell für den Einsatz in privaten Netzwerken reserviert und werden in der Regel nicht im öffentlichen Internet geroutet.

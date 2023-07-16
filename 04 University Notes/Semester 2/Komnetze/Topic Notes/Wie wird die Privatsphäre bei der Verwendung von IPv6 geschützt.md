@@ -1,0 +1,2 @@
+![[Pasted image 20230716154743.png]]
+Unique Local Adressen (ULA) entsprechen den privaten Adressen in IPv4 (vgl. z.B. 192.168.0.0/16). Sie werden im Internet nicht geroutet, können aber z.B. innerhalb eines Unternehmens verteilt werden. Dabei folgen z.B. auf das Präfix „FC“ oder „FD“ 41 Bits einer eindeutig gewählten Site-ID und schließlich eine Subnetz- und Interface-ID.
