@@ -1,0 +1,3 @@
+Haben wir, glaub ich, nicht wirklich gemacht in der VL.
+
+Das CSMA/CD-Verfahren (Carrier Sense Multiple Access with Collision Detection) ist eine Medienzugriffskontrollmethode, die in Ethernet-Netzwerken verwendet wird, um Kollisionen zu vermeiden. Durch den Ablauf des CSMA/CD-Verfahrens wird sichergestellt, dass die Geräte im Netzwerk fair und effizient auf das gemeinsam genutzte Medium zugreifen. Die Methode hilft, Kollisionen zu minimieren und die Datenübertragung in einem Ethernet-Netzwerk zu koordinieren. Allerdings ist das CSMA/CD-Verfahren aufgrund der gestiegenen Leistung und Verbreitung von Switches in modernen Netzwerken weniger gebräuchlich, da Switches Kollisionen effektiv verhindern können.

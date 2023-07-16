@@ -1,0 +1,4 @@
+Das CSMA/CD (Carrier Sense Multiple Access with Collision Detection) und das CSMA/CA (Carrier Sense Multiple Access with Collision Avoidance).
+Die Wahl zwischen CSMA/CD und CSMA/CA hängt von der Art des Netzwerks (kabelgebunden oder drahtlos) und den spezifischen Anforderungen ab. CSMA/CD wird oft in Ethernet-Netzwerken eingesetzt, während CSMA/CA in Wi-Fi-Netzwerken zum Einsatz kommt, um die Übertragungseffizienz und -sicherheit zu verbessern.
+- CSMA/CD: Bei CSMA/CD erfolgt die Übertragung direkt, sobald das Medium als frei erkannt wird. Wenn eine Kollision auftritt, wird dies erkannt und die Übertragung gestoppt.
+- CSMA/CA: Bei CSMA/CA findet vor der eigentlichen Übertragung ein Clear-to-Send (CTS)-Handshake statt, um die Verfügbarkeit des Kanals zu bestätigen. Dadurch wird die Wahrscheinlichkeit einer Kollision reduziert, da andere Geräte den Kanal währenddessen nicht nutzen.

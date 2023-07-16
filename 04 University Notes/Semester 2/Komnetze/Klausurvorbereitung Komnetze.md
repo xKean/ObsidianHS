@@ -1,9 +1,8 @@
----
-dg-publish: true
----
+## Guidelines für die Seite:
+- Oberen Links führen jeweils zur ausführlichen Wiederholungsfragen, i.d.R. >30 in der Anzahl
+- Unten sind die wenigen Lernzielfragen der einzelnen Kapitel angefügt, die vermutlich 90% der Klausur fast sein werden, so wie ich ihn einschätze (Jan)
 
-
-Kapitel der Vorlesung:
+Kapitel der Vorlesung und Wiederholungsfragen:
 
 1. [[Grundlagen von Kommunikationsnetzen]]
 2. [[Anwendungsschicht]]

@@ -36,4 +36,4 @@
 	- Wie unterscheidet sich eine statische von einer dynamischen Adresszuordnung bei DHCP?
 	- Wie können meherere DHCP Server für eine Ausfallsicherheit bei DHCP realisiert werden?
 
-Habe mir Overall gedacht, dass es besser ist dieFragen zu verlinken, sodass man die Antworten beim Lernen nur Nachschauen kann wenn man es benötigt und sich nicht selber gaslighted.
+Habe mir Overall gedacht, dass es besser ist die Fragen zu verlinken, sodass man die Antworten beim Lernen nur Nachschauen kann wenn man es benötigt und sich nicht selber gaslighted.

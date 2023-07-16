@@ -1,0 +1,3 @@
+- Netzschnittstelle für jeden Node notwendig
+	- Netwerkkarte (Network Interface Card -NIC), früher separate Karte, heute oft als Chip
+	- implementiert Data Link auf Layer 2 und physikalische Bitübertragung (Layer 1) in Hardware, Firmware, Software (Treiber)
