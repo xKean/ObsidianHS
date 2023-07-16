@@ -1,7 +1,7 @@
 - Dies wird durch eine verteilte hierarchische Datenbank realisiert
 	- hohe Ausfallsicherheit
 	- Lastverteilung
-	- dezentrale verwaltung
+	- dezentrale Verwaltung
 	- hohe Skalierbarkeit
 - Beginnt schon in der Root-Zone
 	- weltweit gibt es 13 Root-Server

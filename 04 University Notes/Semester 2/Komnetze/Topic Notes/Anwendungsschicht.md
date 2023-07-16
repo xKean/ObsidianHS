@@ -30,10 +30,10 @@
 	- [[Wie ist der DNS namensraum strukturiert... Was unterscheidet eine Domain von einer Zone]]?
 	- [[Wie wird die Ausfallsicherheit und Lastenverteilung bei DNS realisiert]]?
 	- [[Wie unterscheidet sich eine rekursive von einer iterativen DNS Abfrage]]?
-	- Welche Resource Record Typen kennen sie?
+	- [[Welche Resource Record Typen kennen sie]]?
 - Dynamic Host Configuration  Protocol (DHCP)
-	- Wie können Rechner automatisiert mit DHCP für die Verwendung von TCP/ IP Netzen konfiguriert werden?
-	- Wie unterscheidet sich eine statische von einer dynamischen Adresszuordnung bei DHCP?
-	- Wie können meherere DHCP Server für eine Ausfallsicherheit bei DHCP realisiert werden?
+	- [[Wie können Rechner automatisiert mit DHCP für die Verwendung von TCP/ IP Netzen konfiguriert werden]]?
+	- [[Wie unterscheidet sich eine statische von einer dynamischen Adresszuordnung bei DHCP]]?
+	- [[Wie können meherere DHCP Server für eine Ausfallsicherheit bei DHCP realisiert werden]]?
 
 Habe mir Overall gedacht, dass es besser ist die Fragen zu verlinken, sodass man die Antworten beim Lernen nur Nachschauen kann wenn man es benötigt und sich nicht selber gaslighted.
