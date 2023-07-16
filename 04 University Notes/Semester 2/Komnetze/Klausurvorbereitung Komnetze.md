@@ -119,13 +119,29 @@ Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für
 	- Verbindungslose Protokolle
 	- Verbindungsorientierte Protokolle
 	- Gemischte Protokolle
-
-
 - [[Client-Server-Anwendungen]] vs [[Peer-to-Peer]]
 - [[Servicemodelle]] und Anforderungen
-- Welche Aufgaben hat ein typisches [[Anwendungsprotokoll]] einer Internetanwendung? 
-	- 
+- Was ist ein [[Socket]]?
+	- Steckdose, die eindeutig identifiziert, welches Gerät und welcher Prozess es ist.
+	- IP+Port
+- Welche Anforderungen werden an ein [[Internetanwendungsprotokollen|Anwendungsprotokoll]] gestellt?
+	- Paketverlust
+	- Durchsatz
+	- Delay
+	- Verlässlichkeit
+	- Sicherheit
 - Welche Funktionen und Eigenschaften hat [[HTTP]]? 
+	- Welchen groben Aufbau haben HTTP Requests und Responses? 
+		- ![[HTTP#Aufbau]]
+	- Wie können trotz Zustandslosigkeit von HTTP Sitzungen realisiert werden? 
+		- Setzen von Cookies (Wird in Headern mitgegeben)
+		- Problem: Datenschutz, Sicherheit
+	- Welche Vorteile bietet HTTP/3 im Vergleich zu HTTP/1.1? 
+		- Header Kompression
+		- Parallele Streams
+		- UDP als Transportprotokoll mit QUIC
+	- Wie kann darüber hinaus die Antwortzeit beim Zugriff auf Web-Seiten bzw. Web-Anwendungen weiter reduziert werden?
+		- [[CDN]]
 - Wie unterstützt [[DNS]] die Verwendung von Internetanwendungen? 
 - Wie können Rechner automatisiert mit [[DHCP]] für die Verwendung von TCP/IPNetzen konfiguriert werden?
 
