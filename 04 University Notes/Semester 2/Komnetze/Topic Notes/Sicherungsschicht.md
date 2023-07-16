@@ -1,5 +1,5 @@
 ### Wiederholungsfragen
-1. [[Wie hängen die Anforderungen an den Layer 2 mit den Begriffen Link, Node und Frame zusammen und Welche Anforderungen werden an die Sicherungsschicht gestellt]]?
+1. [[Anforderungen an den Layer 2 und Begriffe Link, Node und Frame zusammen| Wie hängen die Anforderungen an den Layer 2 mit den Begriffen Link, Node und Frame zusammen und Welche Anforderungen werden an die Sicherungsschicht gestellt]]?
 2. [[Die Daten werden über eine Leitung in sogenannten Frames übermittelt. Wozu werden die Frames gebildet und was enthält ein Frame]]?
 3. Welche Techniken werden für Fehlerkontrolle und Medienzugriff auf der Sicherungsschicht (Data Link Layer) eingesetzt?
 4. [[Welche Funktionskomponenten enthält eine LAN-Adapterkarte]]?
