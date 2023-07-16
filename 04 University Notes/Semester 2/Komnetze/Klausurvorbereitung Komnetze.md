@@ -78,37 +78,18 @@ Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für
 	- Bus
 - Woraus setzt sich das [[Internet]] zusammen?
 	- Aus Netzen.
-###### Was sind [[Anforderungen an Computernetzwerke]] heutzutage?
-
-![[Anforderungen an Computernetzwerke]]
-###### [[Schichtenmodell für Protokolle und Dienste]]  (Referenzmodelle)
-- Welche Schichtenmodelle kennen Sie?
+- Was sind [[Anforderungen an Computernetzwerke]] heutzutage?
+	- ![[Anforderungen an Computernetzwerke]]
+-  [[Schichtenmodell für Protokolle und Dienste]]  (Referenzmodelle)
+	- Welche Schichtenmodelle kennen Sie?
 	- ![[Schichtenmodell für Protokolle und Dienste]]
-- Was sind [[Header]] und was ist deren Inhalt?
+	- Was sind [[Header]] und was ist deren Inhalt?
 	- Quell- und Zieladressen, für die Aufgaben der Schicht erforderliche Informationen
-
-
-
-
-
-
-
-
-
-
-###### Welche Standardisierungsgremien haben Einfluss auf Computernetzwerke?
-- IEEE
-- IETF
-- ITU-T
-- ETSI
-
-
-
-
-
-
-
-
+- Welche Standardisierungsgremien haben Einfluss auf Computernetzwerke?
+	- IEEE
+	- IETF
+	- ITU-T
+	- ETSI
 
 
 
@@ -141,9 +122,36 @@ Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für
 		- Parallele Streams
 		- UDP als Transportprotokoll mit QUIC
 	- Wie kann darüber hinaus die Antwortzeit beim Zugriff auf Web-Seiten bzw. Web-Anwendungen weiter reduziert werden?
+		- Browser Cache
 		- [[CDN]]
 - Wie unterstützt [[DNS]] die Verwendung von Internetanwendungen? 
-- Wie können Rechner automatisiert mit [[DHCP]] für die Verwendung von TCP/IPNetzen konfiguriert werden?
+	- Keiner kann sich ne IP merken, ne Webadresse schon.
+	- Wie ist der [[DNS]] Namensraum strukturiert? Was unterscheidet eine [[Domain]] von einer [[Zone]]?
+		- Struktur:
+			- Ist von rechts nach links zu lesen. (.de, .hs-fulda, informatik)
+			- informatik.hs-fulda.de
+			- Top Level Domain 
+			- Second Level Domain
+			- Subdomain
+		- Unterschied [[Domain]] - [[Zone]]
+			- Domain ist bspw. eine Spezifische Webseitenadresse: hs-fulda.de
+			- Zone ist ein Bereich, in dem Domains liegen können.
+			- Jede Zone hat einen Nameserver.
+	- Wie wird die Ausfallsicherheit und Lastverteilung bei DNS realisiert?
+		- Wird als verteilte hierarchische Datenbank realisiert.
+		- 13 Rootserver mit vielen Kopien, Weiterleitungen und alternativen Wegen
+	- Welche Resource Record Typen kennen Sie? 
+		- A (Adress-Record)
+		- AAAA(Adress-Record IPV6)
+		- CNAME (Alias)
+		- MX (MailExchange Server)
+		- NS (NameServer)
+		- PTR (Pointer, Reverse-Lookup)
+	- Wie erfolgt eine rekursive Query?
+		- Absetzen der Anfrage, erhalten der vollständigen Antwort
+		- Kontrast zur iterativen Query (normal): Man sucht sich selbst den Weg durch viele Anfragen hintereinander
+- Wie können Rechner automatisiert mit [[DHCP]] für die Verwendung von TCP/IP Netzen konfiguriert werden? 
+	- ![[DHCP#Vorgehen]]
 
 
 ## Lernziele Kapitel 3: [[Transportschicht]]
