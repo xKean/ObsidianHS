@@ -1,0 +1,6 @@
+- 3-Wege-Handshake Verbindungsaufbau bei TCP (HTTP):
+ - Client schickt Sychronisierungsanfrage (SYN) an Server
+ -  Server bestätigt dies mit Acknowledge (ACK) und sendet seinerseits Synchronisierungsanfrage zurück (ergibt: SYN,ACK)
+ - Client bestätigt final mit ACK, Verbindung ist damit aufgebaut, daher können in diesem TCP-Segment bereits Nutzdaten (z.B. HTTP-Anfrage) enthalten sein
+- 4-Wege-Verbindungsabbau bei TCP (HTTP): 
+ -  FINish wird von beiden Seiten gesendet und gegenseitig bestätigt

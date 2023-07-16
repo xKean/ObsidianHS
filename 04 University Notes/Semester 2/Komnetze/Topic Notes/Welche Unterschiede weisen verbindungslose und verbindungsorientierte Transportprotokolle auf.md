@@ -1,0 +1,2 @@
+- das verbindungslose Transportprotokoll UDP übermittelt Daten verbindungslos, d.h. ohne vorher eine virtuelle Verbindung aufzubauen. Keine Garantie für die korrekte Übermittlung der Daten
+- das verbindungsorientierte Transportprotokoll TCP ermöglicht es, virtuelle Verbindungen zwischen den kommunizierenden Rechnern auf- und abzubauen. Durch Fehler- und Flusskontrolle wird dabei eine sichere Datenübermittlung gewährleistet (Ende-zu-Ende Fehler- und Flusskontrolle über mehrere Vermittler hinweg).

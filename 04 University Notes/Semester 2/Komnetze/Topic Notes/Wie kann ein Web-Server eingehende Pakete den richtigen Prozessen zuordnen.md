@@ -1,0 +1,1 @@
+Für HTTP ist der Port 80 und somit das Server Socket immer 80, da der Server die Verbindungen von TCP anhand von Client-IP/-Port differenzieren kann.

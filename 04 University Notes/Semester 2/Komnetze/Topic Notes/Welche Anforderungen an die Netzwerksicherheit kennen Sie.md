@@ -1,0 +1,5 @@
+- **Vertraulichkeit** -> Übertragung soll nicht von Dritten abgehört werden (Verschlüsselung)
+- **Integrität** -> Übertragung soll nicht unterwegs von Dritten manipuliert werden können (Prüfsummen, Hash, digitale Signaturen) 
+- **Verbindlichkeit** -> Absender soll nicht abstreiten können, dass übermittelte Daten von ihm stammen (digitale Signaturen)
+- **Authentizität** -> Identitätsprüfung, Zuordnung von realer zu digitaler Identität (Passwort, Zertifikate)
+- **Verfügbarkeit** -> Systeme, Anwendungen und Dienste im Netz sollen unterbrechungsfrei zur Verfügung stehen und Dienst erfüllen (Firewall, Intrusion Detection Systeme)
