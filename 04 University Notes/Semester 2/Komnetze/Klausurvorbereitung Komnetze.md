@@ -93,6 +93,7 @@ Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für
 
 
 
+
 ## Lernziele Kapitel 2: [[Anwendungsschicht]]
 
 - Konzept und Implementierung von [[Internetanwendungsprotokollen]]
@@ -154,17 +155,88 @@ Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für
 	- ![[DHCP#Vorgehen]]
 
 
+
+
 ## Lernziele Kapitel 3: [[Transportschicht]]
 
-- Aufgaben und Funktion der [[Transportschicht]]
-- Eigenschaften von [[TCP]] und [[UDP]]
-- Performance und Sicherheit auf der Transportschicht bewerten können
-- Welche Aufgaben haben [[Verbindungslose Transportprotkolle]]?
-- Welche Aufgaben haben [[Verbindungsorientierte Transportprotokolle]]?
-- Wie wird bei [[TCP]] die Fehler-, Fluss- und Staukontrolle realisiert? 
-- Welche aktuellen Performance- und Sicherheitsherausforderungen stellen sich für [[TCP]]/[[UDP]]?
+- Welche Protokolle realisieren die Transportschicht in TCP/IP-Netzen?
+	- [[TCP]] (Verbindungsorientiert Transmission Control Protocol) und [[UDP]] (Verbindungslos User Datagram Protocol)
+- Wie unterscheiden sich logische Verbindungen auf der Transport- und auf der Vermittlungsschicht?
+	- Vermittlungsprotokolle werden über viele Layer3-Vermittler ausgeführt und regelt die Wegewahl für logische Verbindung der Endsysteme
+	- Transportprotokolle werden auf den Endsystemen ausgeführt
+		- Quell-Socket teilt Nachrichten in Segmente/Datagramme auf und gibt diese an Vermittlungsschicht weiter
+		- Ziel-Socket fügt die Segmente/Datagramme wieder zusammen und gibt Nachricht an Anwendung weiter
+	- ![[Pasted image 20230716171624.png]]	
+- Welche Unterschiede weisen verbindungslose und verbindungsorientierte Transportprotokolle auf?
+	- Die Verbindung xDXDXDXDXD
+	- Verbindungsorientierte Protokolle gewährleisten:
+		- Zuverlässigkeit des Datentransports:
+			- Aufbau einer virtuellen Verbindung
+		- Fehlerkontrolle (Flow Control)
+		- Staukontrolle (Congestion Control)
+- Wie hängen Segmentierung, Multiplexing und Demultiplexing auf der Transportschicht mit der Anwendungsschicht zusammen?
+	- Anwendungen laufen in unterschiedlichen Prozessen des Betriebssystems: IP-Adresse (Layer 3) + Port (Layer 4) des Endsystems = Endpunktadresse / Socket des Prozesses
+- Was wird durch Transportprotokolle definiert?
+	- Multiplexing und Segmentierung von Daten mehrerer Anwendungsprozesse
+	- Nachrichtensemantik und - syntax
+	- Zuverlässigkeit des Datentransports (Verbindungsaufbau, Gewährleistung des korrekten Reihenfolge der Segmente, Berücksichtigung maximaler Segmentgrößen, KEINE Garantien für Delay, Bitrate)
+	- Flusskontrolle (Flow Control)
+	- Staukontrolle (Congestion Control)
+- Wofür werden „well-known“ und „dynamic ports“ verwendet?
+	- "well known ports" von IANA fest vergeben(<1024): 80 für HTTP, 53 für DNS, 443 HTTPS etc.
+	- "user ports": 1024-49151, für alle Benutzer frei verwendbar, Registrierung bei IANA möglich
+	- "private / dynamic ports": 49152-65535, frei verwendbar
+- Welche Aufgaben hat [[UDP]]?
+	- Der Empfang der Nachricht wird nicht bestätigt!
+	- ![[UDP#Aufgaben]]
+	- Wie werden Sockets bei UDP verwendet?
+		- ![[UDP#Sockets]]
+	- Welche Funktion haben Source und Destination Port im UDP-Header?
+		- Quell- und Zielport werden da angegeben
+		- ![[UDP#Header]]
+	- Welche Vorteile hat UDP gegenüber TCP?
+		- ![[UDP#Vorteile]]
+- Welche Aufgaben hat [[TCP]]?
+	- ![[TCP#Aufgaben]]
+	- Wie werden Sockets bei TCP verwendet?
+		- ![[TCP#Sockets]]
+	- Wie erfolgt der Verbindungsauf- und -abbau bei TCP?
+		- ![[TCP#Verbindungsablauf]]
+	- Wie kann ein Web-Server eingehende Pakete den richtigen Prozessen zuordnen?
+		- Durch Quell-IP und Quell-Port![[Pasted image 20230716174822.png]]
+	- Welche Aufgabe haben Source/Destination Port, Sequence/Acknowledgement Number, Window und die Control Flags im TCP-Header?
+		- ![[TCP#Header]]
+	- Warum ist bei TCP ein Pipelining von Segmenten erforderlich?
+		- Sonst pain, weil lange
+		- ![[TCP#Pipelining]]
+	- Was bedeutet Sliding Window bei TCP in Bezug auf Fehler- und Flusskontrolle?
+		- ![[TCP#Flusskontrolle]]
+	- Woran orientiert sich der Timeout für die Übertragung von TCP-Segmenten?
+		- ![[TCP#Timeout]]
+	- Welche Bedeutung haben Triple Duplicate ACKs bei TCP?
+		- ![[TCP#TripleDuplicate]]
+	- Was bedeuten Slow Start, AIMD und „fast recovery“ für die Staukontrolle bei TCP?
+		- ![[TCP#Staukontrolle]]
+	- Performance-Erweiterung?
+		- ![[TCP#PerformanceImprovements]]
+- Weitere Verbesserungen für TCP?
+	- Congestion Control weiter verbessern: Erweiterungen für Unterscheidung von Paketverlust durch Timeout und Paketverlust durch Bitfehler (z.B. im WLAN)
+	- Multipath TCP -> mehrere Verbindungen über eine Link Layer Verbindungen oder mehrere: parallele Übertragungspfade
+	- Jumbo Pakete?
+- Welche Aufgabe hat [[TLS]] und wie wird die Sicherheit hierbei realisiert?
+	- Anforderungen an Netzsicherheit: 
+		- Vertraulichkeit (Abhörsicherheit - Verschlüsslung)
+		- Integrität (Übertragungssicherheit -> keine Manipulation, Hash)
+		- Verbindlichkeit (digitale Signaturen - ist wirklich von dem und dem)
+		- Authentizität (Identitätsprüfung -> Passwort, Zertifikate)
+		- Verfügbarkeit (Unterbrechungsfrei -> Firewall, Intrusion Detection)
+	- Sicherheit auf Transportschicht!
+	- ![[TLS#Aufgaben]]
+- Welche Vorteile und Funktionen bietet [[QUIC]] für HTTP/3?
+	- ![[QUIC]]
 
 
+## Lernziele Kapitel 4: Vermittlungsschicht
 
 
 ## Lernziele Kapitel 5: [[Sicherungsschicht]] / Netzzugriff
