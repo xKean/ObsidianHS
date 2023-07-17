@@ -13,87 +13,78 @@ Kapitel der Vorlesung und Wiederholungsfragen:
 
 
 ## Lernziele Kapitel 1: [[Grundlagen von Kommunikationsnetzen]]
-
-###### Was ist ein [[Kommunikationsnetz]]?
-
-Ein Kommunikationsnetz besteht aus Vermittlern, Endsystemen und Verbindungsstrecken.
-Eine Anwendung am Endsystem nutzt das Kommunikationsnetz zur Nachrichtenübertragung.
-
-###### Was ist ein [[Kommunikationsprotokoll]]?
-
-Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für die Kommunikation zwischen Endsystemen. Damit lässt sich eine einheitliche Interpretation übermittelter Nachrichten oder Daten sicherstellen.
-
-- Protokolle bilden in der Regel internationale Standards.
-- Jedes Protokoll kümmert sich möglichst nur um seine Aufgabe.
-
-
-###### Grundlegende Systeme, Aufbau Netzzugang (Edge) und Netzkern (Core)
-- Was ist der [[Netzzugang Edge]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
-	- Der Edge-Bereich bezeichnet den Bereich im Internet, in dem Endgeräte (Konsument ODER Data Center) angeschlossen werden.
-	- ![[Netzzugang Edge#Aufbau]]
-- Was ist der [[Netzkern Core]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
-	- ![[Netzkern Core]]
-- Welche Lösungen gibt es für den **Internetzugang** in Heimnetzen?
-	- [[DSL]]
-	- [[Glasfaser]]
-	- [[Kabel (Coaxial)]]
-- Welche Komponenten werden in Heimnetzen benutzt?
-	- [[Wlan-Router]]
-	- [[Switch]] (vielleicht!)
-	- [[Access Point]]
-	- [[Was ist ein Repeater |Repeater]]
-- Welche Komponenten kommen in Unternehmensnetzen hinzu?
-	- Verwendung mehrerer [[Switch|Switches]] um Netz über mehrere Gebäude / Abteilungen aufzuteilen.
-	- [[Server]]
-	- (Redundante) [[Router]] für Internetzugang über [[ISP]]
-- Welche [[Übertagungsmedien]] kennen Sie?
-	- Leitungsgebundene Medien
-		- [[Kupferkabel]]
-		- [[Glasfaserkabel]]
-		- [[Coaxialkabel]]
-	- Leitungsungebundene Medien
-		- Funk / Mobilfunk - [[LTE]] / [[5G]] / EDGE
-		- [[WLAN]]
-		- Radiowellen
-		- Satelliten (GPS / Richtfunk / StarLink)
-- Was bedeutet Paketvermittlung? Welche Vor- und Nachteile hat sie?
-	- Paketvermittlung:
-		- ![[Pasted image 20230716142839.png]]
-- Was bedeutet [[WAN]], [[LAN]], [[MAN]] und wozu braucht man [[VPN]]?
-	- LAN
-		- ![[LAN#Definition]]
-	- WAN
-		- ![[WAN#Definition]]
-	- MAN
-		- ![[MAN#Definition]]
-	- VPN
-		- ![[VPN#Warum nutzt man VPN?]]
-		- ![[VPN#Use-Cases]]
-- Welche [[Netztopologien]] kennen Sie?
-	- Stern
-	- Ring
-	- Linear
-	- Tree
-	- Mesh
-	- Bus
-- Woraus setzt sich das [[Internet]] zusammen?
-	- Aus Netzen.
-- Was sind [[Anforderungen an Computernetzwerke]] heutzutage?
-	- ![[Anforderungen an Computernetzwerke]]
--  [[Schichtenmodell für Protokolle und Dienste]]  (Referenzmodelle)
-	- Welche Schichtenmodelle kennen Sie?
-	- ![[Schichtenmodell für Protokolle und Dienste]]
-	- Was sind [[Header]] und was ist deren Inhalt?
-	- Quell- und Zieladressen, für die Aufgaben der Schicht erforderliche Informationen
-- Welche Standardisierungsgremien haben Einfluss auf Computernetzwerke?
+-  Was ist ein [[Kommunikationsnetz]]?
+	
+	Ein Kommunikationsnetz besteht aus Vermittlern, Endsystemen und Verbindungsstrecken.
+	Eine Anwendung am Endsystem nutzt das Kommunikationsnetz zur Nachrichtenübertragung.
+- Was ist ein [[Kommunikationsprotokoll]]?
+	Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für die Kommunikation zwischen Endsystemen. Damit lässt sich eine einheitliche Interpretation übermittelter Nachrichten oder Daten sicherstellen.
+	
+	- Protokolle bilden in der Regel internationale Standards.
+	- Jedes Protokoll kümmert sich möglichst nur um seine Aufgabe.
+-  Grundlegende Systeme, Aufbau Netzzugang (Edge) und Netzkern (Core)
+	- Was ist der [[Netzzugang Edge]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
+		- Der Edge-Bereich bezeichnet den Bereich im Internet, in dem Endgeräte (Konsument ODER Data Center) angeschlossen werden.
+		- ![[Netzzugang Edge#Aufbau]]
+	- Was ist der [[Netzkern Core]] und welche Aufgaben erfüllt er? Welchen Aufbau hat er?
+		- ![[Netzkern Core]]
+	- Welche Lösungen gibt es für den **Internetzugang** in Heimnetzen?
+		- [[DSL]]
+		- [[Glasfaser]]
+		- [[Kabel (Coaxial)]]
+	- Welche Komponenten werden in Heimnetzen benutzt?
+		- [[Wlan-Router]]
+		- [[Switch]] (vielleicht!)
+		- [[Access Point]]
+		- [[Was ist ein Repeater |Repeater]]
+	- Welche Komponenten kommen in Unternehmensnetzen hinzu?
+		- Verwendung mehrerer [[Switch|Switches]] um Netz über mehrere Gebäude / Abteilungen aufzuteilen.
+		- [[Server]]
+		- (Redundante) [[Router]] für Internetzugang über [[ISP]]
+	- Welche [[Übertagungsmedien]] kennen Sie?
+		- Leitungsgebundene Medien
+			- [[Kupferkabel]]
+			- [[Glasfaserkabel]]
+			- [[Coaxialkabel]]
+		- Leitungsungebundene Medien
+			- Funk / Mobilfunk - [[LTE]] / [[5G]] / EDGE
+			- [[WLAN]]
+			- Radiowellen
+			- Satelliten (GPS / Richtfunk / StarLink)
+	- Was bedeutet Paketvermittlung? Welche Vor- und Nachteile hat sie?
+		- Paketvermittlung:
+			- ![[Pasted image 20230716142839.png]]
+	- Was bedeutet [[WAN]], [[LAN]], [[MAN]] und wozu braucht man [[VPN]]?
+		- LAN
+			- ![[LAN#Definition]]
+		- WAN
+			- ![[WAN#Definition]]
+		- MAN
+			- ![[MAN#Definition]]
+		- VPN
+			- ![[VPN#Warum nutzt man VPN?]]
+			- ![[VPN#Use-Cases]]
+	- Welche [[Netztopologien]] kennen Sie?
+		- Stern
+		- Ring
+		- Linear
+		- Tree
+		- Mesh
+		- Bus
+	- Woraus setzt sich das [[Internet]] zusammen?
+		- Aus Netzen.
+	- Was sind [[Anforderungen an Computernetzwerke]] heutzutage?
+		- ![[Anforderungen an Computernetzwerke]]
+	-  [[Schichtenmodell für Protokolle und Dienste]]  (Referenzmodelle)
+		- Welche Schichtenmodelle kennen Sie?
+		- ![[Schichtenmodell für Protokolle und Dienste]]
+		- Was sind [[Header]] und was ist deren Inhalt?
+		- Quell- und Zieladressen, für die Aufgaben der Schicht erforderliche Informationen
+	- Welche Standardisierungsgremien haben Einfluss auf Computernetzwerke?
 	- IEEE
 	- IETF
 	- ITU-T
 	- ETSI
-
-
-
-
 ## Lernziele Kapitel 2: [[Anwendungsschicht]]
 
 - Konzept und Implementierung von [[Internetanwendungsprotokollen]]
