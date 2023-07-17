@@ -236,7 +236,95 @@ Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für
 	- ![[QUIC]]
 
 
-## Lernziele Kapitel 4: Vermittlungsschicht
-
+## Lernziele Kapitel 4: [[Vermittlungsschicht]]
+- Welche Anforderungen werden an Protokolle auf der Vermittlungsschicht gestellt? 
+	- Pakete zwischen Sender und Empfänger vermitteln
+	- Packen von Segmenten in IP-Pakete, entpacken beim Empfänger
+	- Forwarding -> Eingangs- zu Ausgangsport
+	- Routing: Nutzung von Routing-Algorithmen für Wegewahl
+- Was ist das [[Internet]]? 
+	- ![[Internet]]
+- Wie wird gewährleistet, dass Pakete im Internet nicht unendlich zirkulieren? 
+	- [[TTL]]
+- Woraus besteht eine [[IP-Adresse]] und wie wird ein IP-[[Subnetz]] definiert? 
+	- IP-Adresse
+		- ![[IP-Adresse#IPV4]]
+	- Subnetz
+		- ![[Subnetz]]
+- Welche Vorteile bietet das Classless Inter-Domain Routing? 
+	- Alte Methode: Netzklassen
+		- Bei Netzklassen wurde nur zwischen /8 (Klasse A), /16 (Klasse B), /24 (Klasse C) unterschieden. Da diese Netze für die meisten Usecases zu groß waren, wurden Adressen verschwendet.
+	- Neue Methode: Classless Inter-Domain Routing
+		- Subnetze können klassenlos spezifiziert werden.
+		- Es ist egal ob ein /24, /23, /21 oder ein /17 Netz erstellt wird.
+- Wie kann erkannt werden, ob die Ziel-IP-Adresse im gleichen [[Subnetz]] ist? 
+	- Die Netz-ID wird bitweise mit logischem "UND" vergleicht
+	- ![[Pasted image 20230717125503.png]]
+	- Was passiert, wenn die Adresse im gleichen [[Subnetz]] ist? 
+		- Das Paket wird direkt an den Zielrechner gesendet.
+	- Was passiert, wenn sie in einem fremden [[Subnetz]] liegt? 
+		- Das Paket wird an das Default-Gateway gesendet.
+- Welche Vorteile bietet das [[Longest Prefix Matching]] für das [[Routing]]? 
+	- Durch [[Route Aggregation]] können "kleinere" Routingtabellen ermöglicht werden
+	- [[Longest Prefix Matching]] ermöglicht einfacheren Umzug zwischen ISPs
+- Wie kann das Subnetz 176.16.128.0/17 in fünf neue Subnetze unterteilt werden? 
+	- https://youtu.be/4RMb3eOuZsQ
+- Erläutern Sie die Verwendung von Ports und privaten [[IP-Adresse]]n bei [[NAT]]. 
+	- Im Heimnetz
+		- Router hat <u>eine</u> öffentliche [[IP-Adresse]]
+		- Server von außen möchte Gerät in meinem Heimnetz erreichen#
+		- Server schickt anfrage mit IP (Router) + Port  => [[Socket]]
+		- Router leitet Anfrage (durch Port) an Endgerät PC weiter.
+		- Kommunikation funktioniert.
+		- Somit muss nicht jeder PC eine eigene öffentliche IP haben, sondern nur der Router.
+		- Im Heimnetz selbst werden private IP-Adressen zur Kommunikation benutzt. Diese sind obviously nicht öffentlich eindeutig
+- Welche Vorteile bietet IPv6? Wie erfolgt die Migration von IPv4 nach IPv6? 
+	- Vorteile
+		- ViEl MeHr AdReSsEn (128 Bit statt 32)
+		- Lokalisierung via "Vorwahlen"
+			- Dadurch einfacheres, schnelleres Routing
+	- Migration
+		- Dual Stack oder Dual Stack Lite
+			- Es werden gleichzeitig IPV4 und IPV6 vergeben
+			- ![[Pasted image 20230717134534.png]]#
+			- Problem: IPV4 ist überall verbaut.
+- Wie wird die Privatsphäre bei der Verwendung von IPv6 geschützt?
+	- Privacy Extensions
+		- Der Rechner erhält zusätzlich eine zweite zufällig gewürfelte temporäre IPv6-Unicast-Adresse, die regelmäßig gewechselt und für ausgehende Verbindungen genutzt wird.
+		- Weniger Tracking / Verfolgbarkeit
+- Welche Aufgaben übernehmen [[Forwarding Plane]] und [[Control Plane]] bei Routern? 
+	- Forwarding Plane
+		- ![[Forwarding Plane]]
+	- Control Plane
+		- ![[Control Plane]]
+- Was unterscheidet statisches/dynamisches Routing? Welche Typen kennen Sie? 
+	- Statische Routen
+		- Statische Routen sind sinnvoll, wenn sich (optimale) Routen fast nie ändern. Beispielsweise in einem Heimnetz oder in einem Subnetz muss auf einen Server mit <u>immer der gleiche IP</u> zugegriffen werden.
+	- Dynamische Routen
+		- Dynamische Routen lohnen sich (bspw. im Internet) wenn man sich nicht darauf verlassen kann, dass die Routen nicht ändern.
+		- Distanz-Vektor (Wie das Internet funktioniert)
+			- Router kennt Nachbar-Router und Link-Kosten 
+			- Iterativer Austausch von Nachbar-Routern über Netz (auch von Fehlern!) 
+			- Nachrichtenaustausch nur zwischen Nachbarn, dafür hohe Konvergenzzeit • Routing-Schleifen möglich (z.B. Problem „Count to infinity“)
+		- Link-State Routing-Protokolle (Nur in privaten Netzen)
+			- Alle Router kennen komplette Topologie und deren Zustand („Link State“: Link up/down, Verzögerung, Auslastung, Kosten/Gebühren, …)
+			- Hohes Nachrichtenaufkommen im Gesamtnetz, dafür geringere Konvergenzzeit
+			- Routing-Fehler durch oszillierende Routen möglich 
+			- Fehlerhafte Link-Kosten haben im Gegensatz zu Distanz-Vektor nur lokale Auswirkung
+- Welche Vorteile hat [[OSPF]]? 
+	- Sicherheit (OSPF-Pakete können Authentifizierung beinhalten)
+	- Lastverteilung über Pfade mit gleichen Kosten
+	- „Quality of Service“ in Kosten abbildbar: Z.B. Links mit hoher Latenz
+	- Integrierter Support für Multicast-Routing 
+	- Hierarchisches OSPF-Routing für große Domains
+- Wie werden bei [[BGP]] Prefixes für das Routing im Internet ausgetauscht? 
+	- Router kommunizieren miteinander und updaten ihre Routing Tabellen aufgrund von Update-Nachrichten von anderen Routern.
+- Warum ist bei [[BGP]] ein Policy-based Routing wichtig? 
+	- Ggf. wegen politischen oder wirtschaftlichen Gründen
+		- Routing durch Kriegsländer (kritische Informationen)
+	- Somit können Informationen auf "sicheren" Wegen geleitet werden.
+- Welche Funktionen übernimmt das Hilfsprotokoll [[ICMP]]? 
+- Wofür wird [[ARP]] benötigt?
+	- ARP wird genutzt um zu einer IP-Adresse eine MAC-Adresse zuzuordnen
 
 ## Lernziele Kapitel 5: [[Sicherungsschicht]] / Netzzugriff

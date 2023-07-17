@@ -1,0 +1,1 @@
+TTL (Time to Live): Die maximale Anzahl von Routern, die das IP-Paket unterwegs zum Zielrechner durchlaufen darf. Wird in jedem Router um 1 verringert (dekrementiert). Pakete könnten ohne TTL im Internet unendlich zirkulieren (Schleife zwischen Routern).
