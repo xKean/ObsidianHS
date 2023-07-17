@@ -1,0 +1,1 @@
+Link = Verbindung (Wlan, Kabel, Glasfaser, was weiß ich)

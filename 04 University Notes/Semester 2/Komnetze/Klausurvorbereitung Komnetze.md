@@ -328,3 +328,90 @@ Ein Kommunikationsprotokoll definiert einen festen Ablauf und festen Rahmen für
 	- ARP wird genutzt um zu einer IP-Adresse eine MAC-Adresse zuzuordnen
 
 ## Lernziele Kapitel 5: [[Sicherungsschicht]] / Netzzugriff
+- Wie hängen die Anforderungen an den Layer 2 mit den Begriffen „[[Link]]“, „[[Node]]“ und „[[Frame]]“ zusammen? 
+	- Zuständig für die gesicherte Übertragung von Daten von einem physikalischen Netzknoten (Physical [[Node]]) zum nächsten
+	- Zugriffssteuerung auf Verbindungen "[[Link|Links]]"(=Verbindungen) oder Übertragungsmedien
+		- Shared und Dedicated Medium
+		- Optionale Fehler- und Flusskontrolle
+	- Verkapselung der Daten höherer Schichten in [[Frame]] (=Rahmen)
+	- Bereitstellung Link-Technologien (DSL, Kabel, Fiber, WLAN, ...)
+- Welche Techniken werden für Fehlerkontrolle und Medienzugriff auf der Sicherungsschicht (Data Link Layer) eingesetzt? 
+	- Fehlerkontrolle
+		- Fehlererkennung und Korrektur über Paritätsbits
+		- CRC Prüfsumme
+	-  Medienzugriffskontrolle
+		- [[CSMA CD]]
+			- Prüft ob Kollision erkannt wird und wartet evtl. mit zufälliger Zeit
+- Welche LAN-Topologie und -Technologie wird am häufigsten verwendet und warum?
+	- Topologie
+			- Sterntopologie
+			- ![[Pasted image 20230717154609.png]]
+			- Ja ist halt einfach und Standard in Heimnetzen
+	- Technologie
+		- Ethernet
+			- Gut und Günstig xd
+- Welche Adressen werden auf dem Layer 2 verwendet? 
+	- Mac Adressen
+- Welche Vorteile bieten Switched LANs? 
+	- Ausfallsicherheit
+	- Größere Netzt möglich
+	- Lastverteilung, höhere Geschwindigkeit
+	- Multipathing
+- Welche Vorteile können durch VLANs erzielt werden?
+	- Sicherheit
+	- Trennung von Abteilungen / Etagen / Teams (Struktur!)
+	- Effizienz
+	- Trennung von Broadcastdomänen
+- Welche Funktionen unterstützen Vermittler bzw. Zwischensysteme auf den Layern 1 bis 7? 
+	- Vermitteln? xd?????????
+	- Repeater: Signalverstärkung
+	- Switch: Signalweiterleitung, Signalverteilung
+	- Router: WAN-Zugang, Verwaltung von Subnetzen
+- Wie erlernt ein Layer 2 Switch seine Weiterleitungstabelle? 
+	- Layer 2 Switch erstellt Adresstabelle selbst - durch Anschluss, Verkehr, gesendete Daten, etc.
+	- Adresstabelle wird mit MAC Adresse - Port gefüllt. 
+- Welche Bedeutung haben Schleifen für LAN-Topologien, und wie können sie vermieden werden?
+	- Bedeutung
+		- Wenn Schleifen in LAN-Topologien entstehen, laufen Pakete im Kreis.
+		- Dies führt zu Überlastung und Stau.
+	- Vermeidung
+		- Spanning-Tree-Protokoll
+			- Untersucht Netzwerktopologie, blockiert nicht benötigte (loop)-Links.
+			- Blockierte Links können bei Ausfall anderer Links wieder aktiviert werden.
+		- EtherChannel / Link Aggregation
+			- Links werden gebündelt (wird als "doppelte Leitung" genutzt)
+			- Switches müssen das unterstützen sonst rip
+- Welche Funktionen bietet Layer 3 Switching?
+	- Layer 3 Switch kann auch IP und Routing
+- Welche Vorteile bieten strukturierte Verkabelung und Netze? 
+	- Man weiß was abgeht
+	- Wenn man nicht weiß, wo das Kabel hin geht ist schlecht
+	- Skalierbarkeit, Übersichtlichkeit, leichtere Wartung
+- Wie wird beim Wireless LAN der Zugriff auf das Medium realisiert?
+	- 2,4, 5, 6 GHz Netz (Funk)
+	- Zugriff über Shared Medium Luft
+- Welche Technologien werden für den Netzzugriff im WAN eingesetzt?
+	- [[ISDN]]
+	- [[WDM]] (Glasfaser)
+	- [[DSL]]
+	- [[DOCSIS]]
+	- [[UMTS]], [[LTE]], [[5G]]
+- Welche Vorteile bietet [[MPLS]]?
+	- Switching mit schnellem Label Lookup
+	- vordefinierte Pfade möglich
+	- Geschwindigkeit (QoS)
+	- Effizienz
+	- Lastverteilung
+- Welche Erweiterungen an Ethernet waren für Carrier Ethernet erforderlich? 
+	- Operations, Administration and Maintenance (OAM) 
+	- Provider Backbone Bridges (PBB), PBB Traffic Engineering (PBB-TE) 
+	- Flusskontrolle, Fehlerkorrektur für Ethernet
+- Welche Funktionskomponenten existieren bei DSL? Welche bei DOCSIS?
+	- Kabel (DOCSIS)
+		- Kabelkopfstelle
+		- Kabelmodem
+		- DOCSIS Modembank
+		- ![[Pasted image 20230717161947.png]]
+	- DSL
+		- DSL-Modembank
+		- ![[Pasted image 20230717162004.png]]
