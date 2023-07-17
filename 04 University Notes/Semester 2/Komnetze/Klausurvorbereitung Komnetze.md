@@ -2,7 +2,7 @@
 - Oberen Links führen jeweils zur ausführlichen Wiederholungsfragen, i.d.R. >30 in der Anzahl
 - Unten sind die wenigen Lernzielfragen der einzelnen Kapitel angefügt, die vermutlich 90% der Klausur fast sein werden, so wie ich ihn einschätze (Jan)
 
-Kapitel der Vorlesung und Wiederholungsfragen:
+## Kapitel der Vorlesung und Wiederholungsfragen:
 
 1. [[Grundlagen von Kommunikationsnetzen]]
 2. [[Anwendungsschicht]]
@@ -274,6 +274,8 @@ Kapitel der Vorlesung und Wiederholungsfragen:
 		- ViEl MeHr AdReSsEn (128 Bit statt 32)
 		- Lokalisierung via "Vorwahlen"
 			- Dadurch einfacheres, schnelleres Routing
+		- Kein DHCP mehr benötigt durch Neighbour Discovery Protocol
+		- Bessere Privatsphäre durch temporäre IPs möglich
 	- Migration
 		- Dual Stack oder Dual Stack Lite
 			- Es werden gleichzeitig IPV4 und IPV6 vergeben

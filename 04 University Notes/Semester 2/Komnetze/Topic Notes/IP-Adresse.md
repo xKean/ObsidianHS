@@ -20,3 +20,7 @@ Führende Nullen können weggelassen werden. Es ist erlaubt, z.B. 0 statt 0000, 
 darstellen: 
 
 **ADCF:5:0:0:0:0:600:FEDC**
+
+##### Private IP Adressbereiche
+
+![[Pasted image 20230717185326.png]]
