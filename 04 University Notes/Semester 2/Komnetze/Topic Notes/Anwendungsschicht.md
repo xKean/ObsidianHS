@@ -32,7 +32,7 @@
 	- [[Wie unterscheidet sich eine rekursive von einer iterativen DNS Abfrage]]?
 	- [[Welche Resource Record Typen kennen sie]]?
 - Dynamic Host Configuration  Protocol (DHCP)
-	- [[Wie können Rechner automatisiert mit DHCP für die Verwendung von TCP/ IP Netzen konfiguriert werden]]?
+	- [[IP Netzen konfiguriert werden]]?
 	- [[Wie unterscheidet sich eine statische von einer dynamischen Adresszuordnung bei DHCP]]?
 	- [[Wie können meherere DHCP Server für eine Ausfallsicherheit bei DHCP realisiert werden]]?
 
