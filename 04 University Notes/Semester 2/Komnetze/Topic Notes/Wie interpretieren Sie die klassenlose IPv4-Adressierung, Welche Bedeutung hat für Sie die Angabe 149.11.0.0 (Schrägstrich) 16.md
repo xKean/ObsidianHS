@@ -1,0 +1,1 @@
+Die Angabe 149.11.0.0/16 bezieht sich auf ein Netzwerk mit der Netzwerkadresse 149.11.0.0, bei dem 16 Bits für den Netzwerkanteil und 16 Bits für den Hostanteil verwendet werden. Es können bis zu 65.536 Hosts in diesem Netzwerk verwendet werden.

@@ -1,0 +1,1 @@
+Wenn für ein abgesendetes TCP-Paket innerhalb eines bestimmten Zeitraums (maximale Wartezeit auf Quittung (Maximum Segment Lifetime) ) keine Bestätigung eingeht, wird die Übertragung ab dem zuletzt erfolgreich quittierten TCP-Segment wiederholt.

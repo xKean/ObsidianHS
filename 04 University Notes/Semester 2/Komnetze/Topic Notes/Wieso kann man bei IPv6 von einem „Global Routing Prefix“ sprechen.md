@@ -1,0 +1,3 @@
+Im Gegensatz zu IPv4, das begrenzte Adressbereiche hat, bietet IPv6 einen viel größeren Adressraum. Ein entscheidendes Konzept in IPv6 ist der "Global Routing Prefix" (GRP).
+
+Der Global Routing Prefix ist ein Teil der IPv6-Adresse, der den global eindeutigen Netzwerkanteil identifiziert. Er wird von den Internetdienstanbietern (ISPs) zugewiesen und ermöglicht die globale Routenbildung im Internet. Der GRP ist vergleichbar mit dem Netzwerkanteil in IPv4-Adressen, der durch die Netzwerkmaske definiert wird.

@@ -1,0 +1,1 @@
+Links (Sicherungsschicht) haben maximale Länge einzelner Dateneinheiten Maximum Transfer Unit (MTU) (im Lan typischerweise 1500 Bytes). IP-Pakete müssen an MTU der Links angepasst werden → Aufteilung der IP-Pakete in Fragmente → Fragmentierung

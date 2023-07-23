@@ -1,0 +1,4 @@
+- Die erste Formel besagt, dass der Einfluss älterer Messwerte exponentiell abnimmt, typischerweise Alpha = 0,125
+- Die zweite Formel besagt, Timeout = EstimatedRTT + Sicherheitsabstand
+ - Hohe Varianz der RTT-Werte → hoher Sicherheitsabstand 
+ - Beta = 0,25 typischer Wert 

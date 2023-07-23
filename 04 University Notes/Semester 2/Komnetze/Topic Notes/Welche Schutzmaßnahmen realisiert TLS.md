@@ -1,0 +1,7 @@
+- Verschlüsselung von übertragenen Segmenten
+- Gewährleistung der Integrität der Segmente durch Hashes (Prüfsummen)
+- Endpunktauthentifizierung
+- Daten werden so verschlüsselt, dass nur Endpunkte sie entschlüsseln können (Übertragung von Daten über unsicheres Netz)
+- -> Ermöglicht über **hybride Verschlüsselung**
+ - Asymmetrische Verschlüsselung für Schlüsselaustausch (öffentlicher (public) und privater (private) Key des Servers)
+ - Symmetrischer Schlüssel für transportierte Daten

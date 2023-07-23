@@ -1,0 +1,1 @@
+Die Bildung von Subnetzen bietet Vorteile wie effiziente Nutzung von IP-Adressen, verbessertes Netzwerkdesign, optimiertes Routing, erhöhte Sicherheit und vereinfachte Verwaltung.

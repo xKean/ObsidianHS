@@ -1,0 +1,1 @@
+Ein Content Delivery Network (CDN) ist eine **Gruppe geografisch verteilter Server, die die Bereitstellung von Webinhalten beschleunigen, indem sie näher an den Ort der Nutzer gebracht werden**. Rechenzentren auf der ganzen Welt nutzen Caching.

@@ -1,0 +1,13 @@
+• Typen der ausgetauschten Nachrichten
+- z.B. Anfrage (Request), Antwort (Response) … 
+- Nachrichtensyntax
+	- Welche Felder existieren in der Nachricht und wie grenzen sich diese voneinander ab? 
+- Nachrichtensemantik
+	- Bedeutung der Nachrichten
+- Regeln
+	- Wann und wie senden und antworten Prozesse auf Nachrichten? 
+- Offene Standards–Für Internetanwendungen definiert in RFCs (vgl. vorheriges Kapitel)
+- Erlauben Interoperabilität
+	- Z.B. weltweite Verwendung von HTTP (Web), SMTP (E-Mail), 
+- versus proprietäre Protokolle
+	- Z.B. Skype

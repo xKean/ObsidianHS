@@ -1,0 +1,3 @@
+- Empfänger signalisiert Sender durch das (Receive) Window (rwnd) die Menge an Daten, die er (noch) in seinem Puffer speichern kann
+- Es wird ein weiteres Window eingeführt -> Congestion Window (cwnd), welches die Stau-/Flusskontrolle verwirklicht.
+- Das jeweils „kleinere“ der beiden Fenster bestimmt die tatsächlich zulässige Anzahl von n übermittelten Segmenten, bevor der Sender auf ein ACK wartet.

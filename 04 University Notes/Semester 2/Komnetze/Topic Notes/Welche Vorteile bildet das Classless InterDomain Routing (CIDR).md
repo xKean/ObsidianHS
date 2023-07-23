@@ -1,0 +1,1 @@
+CIDR bietet Vorteile wie effiziente IP-Adressnutzung, vereinfachtes Routing, einfache Adresszuweisung und flexibles Netzwerkdesign.

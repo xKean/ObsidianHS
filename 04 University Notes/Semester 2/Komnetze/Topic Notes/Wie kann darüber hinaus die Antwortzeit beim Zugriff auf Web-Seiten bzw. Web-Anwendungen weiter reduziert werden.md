@@ -1,0 +1,12 @@
+- Verwendung eines Proxy (Vertreter) Caches
+	- Server der stellvertretend für Web-Clients HTTP Anfragen an Server richtet
+	- Empfängt HTTP Anfragen (Server) und sendet sie weiter (als Client)
+	- Arbeitet somit als Vermittler (Gateway) auf Layer 7
+	- Kann erhaltene Antworten zwischenspeichern (Cache) oder filtern etc.
+- [[Cache]] reduziert die Antwortzeit für Benutzer
+	- Sofern Web-Proxy bzw. Web-Cache näher am Benutzer als Web-Server
+	- Herausforderung: Sicherstellung der Aktualität zwischengespeicherter Inhalte, Cache-Verdrängung
+- Caches können verwendet werden im Browser, im LAN, bei ISP, beim Web-Anbieter
+	- [[Content Delivery Network]] (CDN) ermöglicht  weltweite schnelle Verteilung (z.B.: Downloads) von Inhalten
+- Optionaler Hintergrund seinerseits für die Streber unter uns... Ihr wisst wer gemeint ist....
+	- https://www.heise.de/news/Missing-Link-Vom-Siegeszug-des-Webprotokolls-und-resultierenden-Problemen-4768942.html

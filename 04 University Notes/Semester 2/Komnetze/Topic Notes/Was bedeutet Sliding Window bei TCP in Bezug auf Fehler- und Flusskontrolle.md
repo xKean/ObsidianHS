@@ -1,0 +1,1 @@
+Window kann man als Sendefenster interpretieren. Bei jeder Bestätigung (ACK) wird das Sendefenster nach rechts verschoben (Sliding). Die Seq- und ACK-Nummern werden beim Aufbau der TCP-Verbindung zufällig gewählt und ausgetauscht sowie anschließend aufsteigend verwendet.

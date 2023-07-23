@@ -1,0 +1,3 @@
+Ein Subnetz umfasst bei IP alle Rechner, die sich direkt erreichen können, ohne über einen Router zu gehen
+![[Pasted image 20230716152636.png]]
+Eine Subnetzmaske ist eine Kombination von Bits, die verwendet wird, um den Netzwerkanteil und den Hostanteil einer IP-Adresse zu definieren. Sie ermöglicht die Aufteilung eines Netzwerks in kleinere Subnetze und hilft beim Routing des Datenverkehrs. Eine Subnetzmaske wird gebildet, indem eine Reihe von Einsen gefolgt von Nullen verwendet wird, um den Netzwerkanteil und den Hostanteil einer IP-Adresse zu definieren.

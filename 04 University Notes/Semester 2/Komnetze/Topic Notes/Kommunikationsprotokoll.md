@@ -1,6 +1,3 @@
----
-dg-publish: true
----
 Kommunikation erfolgt nach einem Protokoll.
 Das Protokoll sichert einen **festen Ablauf** und **festen Rahmen**.
 Dies hat den Vorteil, dass Nachrichten / Daten / Operationen einheitlich interpretiert werden können.

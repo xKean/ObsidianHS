@@ -1,8 +1,6 @@
----
-dg-publish: true
----
 VPN = Virtual Private Network
 
+### Warum nutzt man VPN?
 - Virtuelles (logisches) Netz über öffentliches Netz (insbesondere Internet)
 - Festes Routing mit einzelnen Technologien möglich
 - Verschlüsselung der übermittelten Daten
