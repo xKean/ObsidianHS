@@ -1,7 +1,21 @@
----
-dg-publish: true
----
 <u><center>**Ausdrücklich Teil der Klausur**</center></u>
+
+### Definition
+„Ein Webformular ist eine organisierte Sammlung von Elementen, die dem Anwender erlauben, Daten anzugeben, zu verändern, auszuwählen oder mit diesen zu interagieren.“
+
+
+### Funktionen Webformular
+↘Eingabe von Daten 
+↘Veränderung von Daten 
+↘Interaktion mit Webseite
+
+
+↘Formulare sind für die Interaktion mit dem Benutzer essentiell 
+↘Form-Element muss action und method definieren und ein Submit beinhalten 
+↘Sinnvolle Beschreibung der Eingabemöglichkeiten
+
+
+
 ### Aufbau<u></u>
 
 
@@ -50,8 +64,11 @@ Für Post:
 ![[Express Routes#Post]]
 
 
+### Get vs Post
+- Get gibt Eingabeparameter in route / query mit
+- Post nicht
 
-
+![[Pasted image 20230723155437.png]]
 
 
 

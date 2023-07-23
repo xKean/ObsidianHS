@@ -1,4 +1,4 @@
-ARP legt eine dynamisch organisierte Adressermittlungs-Tabelle mit <u>IP-Adressen</u> und den <u>zugehörigen MAC-Adressen</u> an. Oft wird diese Tabelle auch ARP-Cache genannt.
+ARP (Adress Resolution Protocol) legt eine dynamisch organisierte Adressermittlungs-Tabelle mit <u>IP-Adressen</u> und den <u>zugehörigen MAC-Adressen</u> an. Oft wird diese Tabelle auch ARP-Cache genannt.
 
 ![[Pasted image 20230717142506.png]]
 
