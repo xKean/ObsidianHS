@@ -77,3 +77,4 @@ Alles vor Übung 5 ist nur Bootstrap, HTML und CSS. Sollte also nichts dran komm
 		  - `let post = blog.find((p) => p.id === parseInt(req.params.postid));`
 		  - [[Unterschied zwischen == und ===]]
 	  - Fileupload (nicht Klausurrelevant?!)
+	  - ![[Pasted image 20230724200604.png]]
