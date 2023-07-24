@@ -1,23 +1,11 @@
 
-### Nicht Klausurrelevante Themen
-- Html, CSS, Bootstrap
-
-
-### Klausurrelevante Themen
-- [[MVC]]
-- [[Node - Getting started]]
-- [[Express - Getting started]]
-- [[Formulare|Formulare - AUSDRÜCKLICH TEIL DER KLAUSUR]]
-- [[Express Routes]]
-
-
-
-
 #### Vorlesungsdurchskipping und wichtige Sachen rauschreibing
 
 - [[Express Architektur]] (Generell Webserver Architektur)
 - [[MVC]]
+- [[Formulare|Formulare - AUSDRÜCKLICH TEIL DER KLAUSUR]]
 - [[Ablauf Express Server Erstellen]]
+- [[Express - Basic Knowledge]]
 - [[Anpassung des Ports]]
 - [[Installation Nodemon]]
 - [[Request(req) und Response(res)]]
