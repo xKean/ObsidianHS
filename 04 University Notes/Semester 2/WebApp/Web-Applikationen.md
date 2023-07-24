@@ -71,4 +71,9 @@ Alles vor Übung 5 ist nur Bootstrap, HTML und CSS. Sollte also nichts dran komm
 
 
   - Übung 8: MVC Model
-	  - 
+	  - Nutzung von JSON als Filestorage mit `fs.readFileSync(dir)` und `fs.writeFileSync(dir, data)`
+	  - Nutzung von Pfeilfunktionen
+	  - Nutzung von IDs im Datenmodell zum finden von Daten unabhängig von Erstellungsreihenfolge
+		  - `let post = blog.find((p) => p.id === parseInt(req.params.postid));`
+		  - [[Unterschied zwischen == und ===]]
+	  - Fileupload (nicht Klausurrelevant?!)
