@@ -21,7 +21,7 @@ JavaScript kann nicht nur im Server, sondern auch im Client (Browser) eingesetzt
 ```js
 
 var selected = allJobs.filter(function (job) {
-return 'ob. isSe1ected();
+return 'job. isSe1ected();
 });
 
 ==
