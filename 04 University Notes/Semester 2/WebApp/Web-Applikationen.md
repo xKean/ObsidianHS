@@ -20,3 +20,30 @@
 - [[HTTP Status Codes]]
 - [[Web APIs und Fetch]]
 - [[Synchron vs Asynchron]]
+
+
+
+#### Wichtige  Sachen aus Übungen
+Alles vor Übung 5 ist nur Bootstrap, HTML und CSS. Sollte also nichts dran kommen
+
+- Übung 5
+	- Hier wird ein Express Server erstellt mithilfe [[Ablauf Express Server Erstellen|der Anleitung aus der Vorlesung]]
+	- Änderung des Titels: Wo kann man den Titel der Webapplikation ändern?
+		- Bei der generierten Express-Anwendung gibt es nur einen view, der Standardmäßig gerendert wird. Der Titel wird auf der ejs-Seite folgendermaßen verarbeitet:  `<title><%= title %></title>`
+		- Was heißt das?
+			- Der Title wird in der Route als Parameter übergeben und kann in der index-Route angepasst werden.
+			- ![[Pasted image 20230724103016.png]]
+	- Wie kann man weitere Parameter an den View übergeben und anzeigen?
+		- Übergeben
+			- Der Parameter kann einfach an die Liste angehängt werden ![[Pasted image 20230724103301.png]]
+		- Anzeigen
+			- Der Parameter kann durch die EJS-Syntax wie auch der Titel auf der Seite gerendert werden![[Pasted image 20230724103429.png]]
+	- Views untereinander verlinken / neue Seite anlegen
+		- Route
+			- Neue Route anlegen
+			- ![[Pasted image 20230724104134.png]]
+		- View und Verlinkung
+			- ![[Pasted image 20230724104231.png]]
+
+- Übung 6
+
