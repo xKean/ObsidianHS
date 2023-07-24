@@ -6,3 +6,6 @@
 6. Ordner Wechseln (`cd AppName`)
 7. (Versionen ändern in `package.json`), Abhängigkeiten installieren (`npm install`)
 8. Anwendung starten (`npm start`) - Standardport: 3000
+
+
+Evtl. [[Installation Nodemon]] für QOL :)
