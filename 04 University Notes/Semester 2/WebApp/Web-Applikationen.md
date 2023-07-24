@@ -44,6 +44,10 @@ Alles vor Übung 5 ist nur Bootstrap, HTML und CSS. Sollte also nichts dran komm
 			- ![[Pasted image 20230724104134.png]]
 		- View und Verlinkung
 			- ![[Pasted image 20230724104231.png]]
+- Zusammenfassung Übung 5
+	- Titel kann durch den Title-Tag auf der Seite verändert werden
+	- Parameter können über den Router eingespielt werden und via EJS (`<%= title %>`) genutzt werden
+	- Verlinkungen unter HTML Seiten via Router-Routen und `<a href="/route" </a>`
 
 - Übung 6
 
