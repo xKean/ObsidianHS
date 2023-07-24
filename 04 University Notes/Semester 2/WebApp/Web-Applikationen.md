@@ -24,7 +24,6 @@
 - [[Javascript]]
 - [[Express Routes]]
 - [[HTTP-Methoden]]
-- [[MVC Model]]
 - [[JSON in Js]]
 - [[Dateien lesen und schreiben in Node.js]]
 - [[Middleware]]

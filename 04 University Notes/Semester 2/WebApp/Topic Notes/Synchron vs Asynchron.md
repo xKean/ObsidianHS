@@ -10,9 +10,39 @@ Asynchrone Kommunikation zwischen Client und Server kann zum Nachladen von Inhal
 - Beispiel: Telefon
 
 
-
-
-
 ![[Pasted image 20230723163458.png]]
 
+
+### Beispiel
+
+##### ASYNC:
+```mermaid
+sequenceDiagram
+actor Ich
+actor Amazon
+Ich-)Amazon: Waren in Warenkorb legen
+Ich-)Amazon: Bestellung auslösen
+Ich-)Ich: Haushalt machen
+Ich-)Ich: Lernen
+Amazon-)Ich: Lieferung auslösen
+Ich-)Ich: Schlafen gehen
+Ich-)Ich: Arbeiten gehen
+Ich-)Ich: Nach Hause gehen
+Amazon-)Ich: Lieferung ausgeführt
+Ich-)Ich: Paket öffnen
+```
+
+##### SYNC:
+```mermaid
+sequenceDiagram
+actor Ich
+actor Amazon
+Ich-)Amazon: Waren in Warenkorb legen
+Ich-)Amazon: Bestellung auslösen
+Ich-)Ich: Vor PC warten
+Amazon-)Ich: Lieferung auslösen
+Ich-)Ich: Vor Pc warten
+Amazon-)Ich: Lieferung ausgeführt
+Ich-)Ich: Paket öffnen
+```
 
