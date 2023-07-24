@@ -49,5 +49,26 @@ Alles vor Übung 5 ist nur Bootstrap, HTML und CSS. Sollte also nichts dran komm
 	- Parameter können über den Router eingespielt werden und via EJS (`<%= title %>`) genutzt werden
 	- Verlinkungen unter HTML Seiten via Router-Routen und `<a href="/route" </a>`
 
-- Übung 6
 
+- Übung 6: Formulare
+	- [[Formular mit Labels anlegen]]:
+	- Neue (post)Route anlegen
+	- Ausgabe von Benutzer eingegebenen Parametern durch `console.log(req.body.geburtstag);`
+
+- Übung 7: Routing
+	- Nutzung einer Wildcard (id) in query
+		- `req.params.id`
+	- Definition eines Objekts
+	  ```js
+	  let post = {
+	    title: req.body.titel,
+	    user: req.body.benutzername,
+	    date: req.body.datum,
+	    text: req.body.text,
+	  };
+	```
+	- Anhängen eines Objekts an ein Array via `posts.push(post)`
+
+
+  - Übung 8: MVC Model
+	  - 
