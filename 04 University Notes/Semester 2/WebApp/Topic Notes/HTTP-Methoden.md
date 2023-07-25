@@ -1,9 +1,17 @@
-↘Safe 
-	↘Der Aufruf dieser Operation hat keine Nebenwirkungen. 
-	↘Ressource erfährt durch den Abruf keine Änderung 
 
-↘Idempotent 
-	↘Das mehrfache Aufrufen dieser Operation liefert immer das gleiche Ergebnis.
+### Tabelle Idempotent - Safe
+
+HTTP-Methode | [[Idempotent]] | [[Safe]] | Nutzen
+-------------  |  --- | --- | -----------
+GET  |✅| ✅| Webservice liefert die Repräsentation einer Ressource <br> Anforderung einer Ressource 
+POST |❌| ❌| Erzeugt eine oder mehrere Ressourcen deren URIs noch nicht bekannt sind. 
+PUT |✅| ❌| Aktualisierung einer Ressource; Sollte die Ressource nicht existieren, wird sie unter der URI angelegt
+PATCH |❌| ❌| Modifiziert nur einen Teil der angegebenen Ressource, gegenüber der HTTP Methode PUT wird die Ressource nicht komplett überschrieben 
+DELETE |✅| ❌| Löschen einer Ressource, falls die Ressource nicht existiert, wird kein Fehler ausgelöst, da das gewünschte Ergebnis schon erreicht ist. <br> Wirft bei mehrfachem löschen keinen Fehler. 
+HEAD |✅| ✅| Fragt den HTTP-Header zu einer identifizierten Ressource ab. Liefert den gleichen Header, wie die HTTP Methode GET, nur ohne Daten. 
+OPTIONS |✅| ✅| Liefert die HTTP Methoden, welche auf der identifizierten Ressource zur Verfügung stehen. 
+TRACE |✅| ✅| Liefert die Anfrage so zurück, wie der Server sie empfangen hat. So kann überprüft werden, ob und wie die Anfrage auf dem Weg zum Server verändert worden ist. <br> Liefert den gleichen Header, wie die HTTP Methode GET, nur ohne Daten.  
+
 
 
 
@@ -53,3 +61,4 @@
 	↘Liefert die Anfrage so zurück, wie der Server sie empfangen hat. So kann überprüft werden, ob und wie die Anfrage auf dem Weg zum Server verändert worden ist. 
 	↘Liefert den gleichen Header, wie die HTTP Methode GET, nur ohne Daten. 
 	↘Ist idempotent
+

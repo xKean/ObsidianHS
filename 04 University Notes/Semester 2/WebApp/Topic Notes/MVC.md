@@ -16,6 +16,8 @@ MVC ist weit verbreitet und wird in vielen Frameworks und Technologien verwendet
 
 ### Vorteile
 Model-View-Controller erhöht die Wiederverwendbarkeit von Software
+- Trennung von M/V/C
+- 
 
 ### 3 Bestandteile:
 [[MVC Model]]
