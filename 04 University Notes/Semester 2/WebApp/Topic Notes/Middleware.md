@@ -62,3 +62,23 @@ app.get('/', (req, res) => {
   res.send('Hallo, dies ist eine Beispielroute!');
 });
 ```
+
+
+### Nutzung von Middleware die nicht zentral definiert wurde
+
+```js
+function isAuthenticated(req, res, next) {
+  // Ein einfaches Beispiel, wie Sie prüfen könnten, ob ein Benutzer authentifiziert ist
+  if (req.isAuthenticated()) {  // 'isAuthenticated' könnte eine Funktion sein, die Sie definieren, oder von einem Modul wie 'passport' stammen
+    next(); // Wenn der Benutzer authentifiziert ist, rufen Sie die nächste Middleware-Funktion in der Kette auf.
+  } else {
+    res.status(403).send("Nicht autorisiert"); // Wenn der Benutzer nicht authentifiziert ist, senden Sie eine 403-Antwort.
+  }
+}
+
+router
+  .route("/")
+  .get(isAuthenticated, blogController.getAllPosts) // Hier fügen Sie 'isAuthenticated' als Middleware vor 'getAllPosts' hinzu
+  .post(blogController.createPost);
+
+```
