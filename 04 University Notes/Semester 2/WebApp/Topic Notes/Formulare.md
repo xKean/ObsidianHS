@@ -22,7 +22,7 @@
 ```html
 <form action "/suchen" method = "get">
 	<label for = "search" > Suchbegriff: </label>
-	<input type = "text" id = "search" name = "searchVariableName" placeholder = "Suchtext" </input>
+	<input type = "text" id = "search" name = "searchVariableName" placeholder = "Suchtext">
 	<input type = "submit" value = "Finden">
 </form>
 ```

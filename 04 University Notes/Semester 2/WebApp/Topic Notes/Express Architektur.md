@@ -8,3 +8,5 @@ Weitergehende Server / Client Rendering Choices
 Es ist möglich, Rendering auf dem Client und auf dem Server zu machen.
 Auch Mischformen sind möglich.
 Je nach Anspruch und Anforderungen an die App / Service kann die Load verschoben werden.
+
+
