@@ -70,6 +70,8 @@ Alles vor Übung 5 ist nur Bootstrap, HTML und CSS. Sollte also nichts dran komm
 	- Anhängen eines Objekts an ein Array via `posts.push(post)`
 
 
+
+
   - Übung 8: MVC Model
 	  - Nutzung von JSON als Filestorage mit `fs.readFileSync(dir)` und `fs.writeFileSync(dir, data)`
 	  - Nutzung von Pfeilfunktionen
