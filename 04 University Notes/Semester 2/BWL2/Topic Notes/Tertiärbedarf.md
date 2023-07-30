@@ -1,0 +1,1 @@
+Sonstige Materialien, die nicht unmittelbar in die betrieblichen Erzeugnisse eingehen, z.B. Kühl- und Schmiermittel, Brennstoffe

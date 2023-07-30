@@ -1,0 +1,4 @@
+- Wertschätzung
+- Persönliches Wachstum
+- Arbeitsinhalte
+- Anerkennung der Kollegen

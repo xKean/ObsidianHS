@@ -1,0 +1,1 @@
+Rohstoffe, Einzelteile und Baugruppen, die zur Erstellung der geplanten Enderzeugnisse benötigt werden.

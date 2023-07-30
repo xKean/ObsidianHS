@@ -1,6 +1,3 @@
----
-dg-publish: true
----
 ### Verwendung
 Hier wird unterschieden, welche Materialien stetig im Verbrauch sind. Je nach Stetigkeit kann dann eine Lagerform oder andere materialwirtschaftliche Entscheidung getroffen werden.
 
@@ -21,4 +18,6 @@ Hier wird unterschieden, welche Materialien stetig im Verbrauch sind. Je nach St
 - Lange Lieferzeiten
 - Schwankende Preise / Hohe Preise
 - Evtl. nicht Verfügbar
-- 
+
+
+![[Pasted image 20230729133957.png]]

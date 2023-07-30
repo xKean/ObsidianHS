@@ -1,0 +1,1 @@
+Geplanter Bedarf an Enderzeugnissen, der sich aus der Produktionsprogrammplanung ergibt. Ferner die erwarteten Verkaufsmengen an Ersatzteilen.

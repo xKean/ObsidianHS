@@ -1,10 +1,12 @@
----
-dg-publish: true
----
+
+![[Pasted image 20230729134355.png]]
+
+
 ### Verwendung
 Wird genutzt um Produktionswaren / Dienstleistungen / Kunden, etc. in Klassen einzuteilen.
 Bei Kunden der A-Klasse können dann beispielsweise Vorteile gegeben werden, da diese offensichtlich die wichtigsten sind.
-Bei Produktionswaren kann bei A-Klassen genau auf die Preisverhandlungen wert gelegt werden und bei Produktionswaren der Klasse C kann auf einen effizienten und optimierten / schlanken Beschaffungsprozess geprüft werden.
+**Bei Produktionswaren kann bei A-Klassen genau auf die Preisverhandlungen wert gelegt werden und bei Produktionswaren der Klasse C kann auf einen effizienten und optimierten / schlanken**
+Beschaffungsprozess geprüft werden.
 
 ### Vorgehen
 

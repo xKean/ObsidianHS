@@ -1,0 +1,5 @@
+- Zahl der eingesetzten Betriebsmittel
+- Anzahl Arbeitstage
+- Intensität
+- Ausschuss
+- 
